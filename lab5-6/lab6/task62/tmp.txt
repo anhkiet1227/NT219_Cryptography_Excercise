@@ -1,0 +1,25 @@
+md5
+
+k = kiettinder123456
+
+m = ngay mai nop do an ne
+
+signature
+h1 = md5
+h1(kiettinder123456ngay mai nop do an ne)
+
+s1 = 42fab9717bad12a8922a3b0a06aed01b
+
+padding = hen qua lam xong roi ne
+
+./hashpump -s '42fab9717bad12a8922a3b0a06aed01b' -d 'ngay mai nop do an ne' -a 'hen qua lam xong roi ne' -k 16
+
+sha1
+
+./hashpump -s 'fcdef95e4648f2407363dc7c7352cfa346e0a649' -d 'ngay mai nop do an ne' -a 'hen qua lam xong roi ne' -k 16
+
+sha256
+./hashpump -s '7aacea8f9779c5c1e369940a76db551424de91496c60dce8dcb554700137083a' -d 'ngay mai nop do an ne' -a 'hen qua lam xong roi ne' -k 16
+
+sha512
+./hashpump -s 'd9701ef9d9f0557c7e89c0ff1cc1d49775c52540b7f6b5f2f21e890793617b12f61c033dfb60c582b77d7e88b1f0b328db2d561a7af7119ad68020474428ed10' -d 'ngay mai nop do an ne' -a 'hen qua lam xong roi ne' -k 16

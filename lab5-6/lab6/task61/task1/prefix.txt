@@ -1,0 +1,10 @@
+#include<iostream>
+
+using namespace std;
+
+int main() {
+	cout << "Lab6: MD5 Collision" << endl;
+	cout << "Vo Anh Kiet ANTN2020 20520605";
+	return 0;
+}
+
