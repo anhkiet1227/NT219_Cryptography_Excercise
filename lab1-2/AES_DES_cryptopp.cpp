@@ -1018,8 +1018,8 @@ int main(int argc, char *argv[])
 	wcout << L"time encrypt 10000: " << time[0] << " ms" << endl;
 	wcout << L"average encrypt time: " << time[0] / nValue << " ms" << endl;
 	wcout << endl;
-	wcout << L"time decrypt 10000: " << time[0] << " ms" << endl;
-	wcout << L"average decrypt time: " << time[0] / nValue << " ms" << endl;
+	wcout << L"time decrypt 10000: " << time[1] << " ms" << endl;
+	wcout << L"average decrypt time: " << time[1] / nValue << " ms" << endl;
 	wcout << L"--------------------------------------------------------------------------------" << endl;
 
 	wcout << L"Ghi dữ liệu vào file" << endl;

@@ -1,16 +1,15 @@
 This is the result
 
 plaintext: Võ Anh Kiệt - 20520605 - ANTN2020
-key: F192C3EBC709CA47
-iv: A40C475837067905
-ciphertext: 3D35F728AB0E5F039D11066BE4E08CB44DE0CE6BCD49F6EB4967BB1C1480E63A8851D539
+key: D53EEC1670383A5068B69BF17AC29A07
+ciphertext: ED1A1AFA591F68BCAFAAF8D6A9343BC9AC43E553D1C4229111C82B339428B0C39E05732770C5A6960D493CCCCCA40536
 recovertext: Võ Anh Kiệt - 20520605 - ANTN2020
 --------------------------------------------------------------------------------
 Time counter
 
-time encrypt 10000: 42 ms
-average encrypt time: 0.0042 ms
+time encrypt 10000: 56 ms
+average encrypt time: 0.0056 ms
 
-time decrypt 10000: 42 ms
-average decrypt time: 0.0042 ms
+time decrypt 10000: 56 ms
+average decrypt time: 0.0056 ms
 --------------------------------------------------------------------------------
