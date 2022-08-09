@@ -263,6 +263,8 @@ int main(int argc, char **argv)
 			break;
 		
 		}
+		message.clear();
+		message = getMessageFromFile(fileName); 
 		wcout << endl << s2ws(fileName) << endl << endl;
 		for (int i = 1; i <= 10; i++)
 		{
